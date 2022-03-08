@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 650px;
+}
+
+.info{
+    position: absolute;
+    top: 40px;
+    left: 5%;
+}
+
+.info a{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info a:hover{
+    color: #c1a847;
+}
+
+
+.job_left{
+    position: absolute;
+    top: 65px;
+    left: 5%;
+    width: 50%;
+    height: 950px;
+}
+
+.job_left h1{
+    color: #EAB121;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.job_left span{
+    position: absolute;
+    top: 49px;
+    border: 1px solid #eab121;
+    border-radius: 8px;
+    background-color: #f8cb1c;
+    padding: 3px 5px;
+    font-size: 20px;
+}
+
+.job_left a{
+    position: absolute;
+    top: 55px;
+    right: 62%;
+    color: #333333;
+    font-size: 18px;
+}
+
+.job_left a:hover{
+    color: #c1a847;
+}
+
+
+/* End left section */
+
+
+/* Start job name section */
+
+.job_right{
+    position: absolute;
+    right: 20%;
+    top: 70px;
+}
+
+.job_right h5{
+    color: #555;
+}
+
+.job_right i{
+    border: 1px solid rgb(0, 60, 255);
+    background-color: rgb(0, 60, 255);
+    color: white;
+    font-size: 12px;
+    padding: 3px 4px 4px 3px;
+}
+
+.job_right i:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+/* End job name section */
+
+/* Start work info */
+.left_info{
+    position: absolute;
+    top: 180px;
+    left: 64px;
+    background-color: #fffae9;
+    width: 1043px;
+    height: 214px;
+}
+
+.left_info table td{
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+.right_info{
+    position: absolute;
+    right: 20%;
+    top: 185px;
+}
+
+.right_info a{
+    color: #333333;
+}
+
+.right_info a:hover{
+    color: #c1a847;
+}
+
+.right_info table td{
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+
+/* End work info */
+
+/* Start work detail */
+
+.left_work{
+    width: 40%;
+    position: absolute;
+    left: 64px;
+    bottom: 2px;
+}
+
+.left_work p{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 11px;
+}
+
+.left_work ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.left_work ul li::before{
+    content: "-";
+}
+
+/* Right work detail */
+
+.right_work{
+    position: absolute;
+    right: 121px;
+    bottom: 85px;
+    width: 40%;
+}
+
+
+.right_work .requireds{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 11px;
+}
+
+.right_work ul li{
+    list-style-type: none;
+    font-size: 18px;
+}
+.right_work ul li::before{
+    content: "-";
+}
+.cv p{
+    font-size: 20px;
+    position: absolute;
+    right: 21%;
+    top: 178px;
+}
